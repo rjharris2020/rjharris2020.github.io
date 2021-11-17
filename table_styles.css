@@ -1,0 +1,33 @@
+table{
+    border: solid 2pt brown;
+}
+
+caption{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* th means to make changes to the header */ 
+th{
+    padding: 10pt;
+    background-color: burlywood;
+}
+
+/* td means to make changes to the table data */ 
+td{
+    padding: 10pt;
+}
+
+/* tr = table row */
+tr:nth-child(even){
+    background-color: coral;
+}
+
+tr:nth-child(odd){
+    background-color: darkkhaki;
+}
+
+tr:hover{
+    background-color: darkgoldenrod;
+    font-weight: bold;
+}

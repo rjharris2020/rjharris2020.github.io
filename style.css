@@ -1,3 +1,7 @@
+section{
+    background-color: salmon;
+}
+
 h1{
     font-size: 80px;
 }
@@ -30,6 +34,6 @@ h1{
     color:white
 }
 
-.blackBackground{
-    background-color: black
+.redBackground{
+    background-color: red
 }
